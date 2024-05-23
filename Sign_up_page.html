@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--This form is for practical purpose-->
+        <title>
+            Sign Up
+        </title>
+        <style>
+            body {background-color:black;}
+            
+                  h1{font-size:22px;
+                    background-color:darkcyan;
+                    border-radius:5px;
+                    padding: 5px;
+                    font-weight:bold;
+                 font-family:'Times New Roman';
+                    text-decoration:overline;
+                    margin: 20px 50px;
+                    }   
+                    
+            p.instruct{font-size:20px;
+                      font-weight:bold;
+                      text-decoration:underline;
+                      }
+                    
+            div{font-size:15px;
+                background-color:darkcyan; 
+                border-radius:5px; 
+                margin: 20px 50px;
+                padding:5px;
+                font-weight:bold;
+                font-family:'Times New Roman';}
+                
+            .name{padding:5px;
+                  border-radius:5px;
+                  border:none;
+                  width:130px;}
+            
+            input{padding:5px;
+                  border-radius:5px;
+                  border:none;
+                  width:280px;} 
+            
+     input.signup{border:none;
+                  border-radius:5px;
+                  color:black;          
+                  text-align:right;
+                  font-weight:bolder;
+                  background:none;
+                  font-size:20px;}
+        </style>
+    </head>
+    <body>
+        <h1>
+            Welcome To Our Sign Up Page!
+        </h1>
+        <div>
+            <p class="instruct">
+               Create New Account
+            </p>
+            <form>
+                <table>
+                    <td>
+                        <label>
+                            Firstname:
+                        </label><br>
+                        <input class="name" type="text" name="firstname" placeholder="firstname" required>
+                    </td>
+                    <td>
+                        <label>
+                            Lastname:
+                        </label><br>
+                        <input class="name" type="text" name="lastname" placeholder="lastname" required>
+                    </td>
+                </table><br>
+                <label>
+                    Email/Phone Number:
+                </label><br>
+                <input type="email" type="number" name="email" placeholder="mail@example.com/xxx xxx xxx xxxx" required><br><br>
+                <label>
+                    Username:
+                </label><br>
+                <input type="user" name="username" placeholder="username" required><br><br>
+                <label>
+                    Password:
+                </label><br>
+                <input type="password" name="password" placeholder="password" required><br><br>
+                <label>
+                    Confirm Password:
+                </label><br>
+                <input type="password" name="confirm password" placeholder="confirm password" required><br><br>
+                <input class="signup" type="submit" value="Sign Up">
+             </form>
+        </div>
+    </body>
+</html>
